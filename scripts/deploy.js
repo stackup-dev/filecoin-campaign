@@ -10,9 +10,6 @@ const provider = new ethers.providers.JsonRpcProvider(
 );
 
 async function main() {
-  // Retrieve the gas value from the network.
-  const feeData = await provider.getFeeData();
-  const maxPriorityFeePerGas = feeData.maxPriorityFeePerGas;
   /**
     A ContractFactory in ethers.js is an abstraction used to deploy new smart contracts,
     so coinFile here is a factory for instances of our CoinFile contract.
