@@ -6,7 +6,7 @@ async function main() {
     const owner = await contract.owner();
     let balance = await contract.balanceOf(owner);
     // Now you can call functions of the contract
-    console.log(`The token balance is: ${balance}.`);
+    console.log(`The token balance is: ${ethers.utils.formatUnits(balance, 18)}`);
 
 }
 
