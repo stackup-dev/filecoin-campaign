@@ -923,7 +923,7 @@ export default function Home() {
                               style={{ marginTop: "20px" }}
                             >
                               <h4 style={{ color: "white", padding: "4px", fontWeight: "bold" }}>
-                                DAO Information
+                                ResearchDAO Available Datasets
                               </h4>
                             </div>
                             <div className={styles.voteResultsContainer}>
