@@ -583,7 +583,7 @@ export default function Home() {
             <p className={styles.detailsText}>Post Smart contract address: </p>
             <p className={styles.hyperlinkText}>
               <Link
-                href={`https://goerli.etherscan.io/address/${postData.postSCAddress}`}
+                href={`https://sepolia.etherscan.io/address/${postData.postSCAddress}`}
                 target="_blank"
               >
                 {postData.postSCAddress}
